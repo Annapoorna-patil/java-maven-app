@@ -1,6 +1,6 @@
 pipeline {
 	agent {
-label 'pwd'
+label 'ssh'
 	}
 	tools {
         maven 'm1' 
