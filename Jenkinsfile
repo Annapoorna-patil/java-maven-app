@@ -1,7 +1,5 @@
 pipeline {
-	agent {
-label 'web'
-	}
+	agent any
 	tools {
         maven 'm1' 
     }
