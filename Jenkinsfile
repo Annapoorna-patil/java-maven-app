@@ -1,5 +1,5 @@
 pipeline {
-	agent any
+	agent 'pwd'
 	tools {
         maven 'm1' 
     }
