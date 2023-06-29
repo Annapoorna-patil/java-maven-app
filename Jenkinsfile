@@ -1,5 +1,7 @@
 pipeline {
-	agent 'pwd'
+	agent {
+label 'pwd'
+	}
 	tools {
         maven 'm1' 
     }
